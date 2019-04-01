@@ -1,0 +1,88 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-5">
+        <div class="row">
+            <div class="col-md-3">
+      <img src="assets/tran.png" class="img-circle img-responsive">
+    </div>
+      <div class="col-md-9">
+      <nav>
+        <ul>
+          <li><a href="">HomePage</a></li>
+          <li><a href="">Repositories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+    <div class="col-md-6">
+      <form (ngSubmit)='findprofile()' class="search-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="githubsearch..." [(ngModel)]="username"
+            name="username">
+          <button class="btn btn-success ok " type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+    <div class="row hey">
+      <div class="col-md-12" id="hide">
+        <div *ngIf="profile">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1>{{profile.login}}</h1>
+              <span *ngIf="profile.company">  ~{{profile.bio}}</span>
+
+            </div>
+            <div class="top">
+              <span class="badge badge-secondary purp">{{profile.public_repos}} Public Repos</span> &nbsp;
+              <span class="badge badge-primary  purp">{{profile.public_gists}} Public Gists</span> &nbsp;
+              <span class="badge badge-success  purp">{{profile.followers}} Followers</span> &nbsp;
+              <span class="badge badge-info  purp">{{profile.following}} Following</span>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-7 me">
+                  <div id="move">
+                  <img class="img-circle img-responsive me" src="http://www.imagensanimadas.com/data/media/705/cartao-de-natal-imagem-animada-0006.gif">
+                  <img class="img-circle img-responsive me" src="{{profile.avatar_url}} " >
+                </div>
+                  <ul class="list-group">
+                    <li class="list-group-item"><strong>Username: </strong>{{profile.login}}</li>
+                    <li class="list-group-item"><strong>Name: </strong>{{profile.name}}</li>
+                    <li class="list-group-item"><strong>Email: </strong>{{profile.email}}</li>
+                    <li class="list-group-item"><strong>Location: </strong>{{profile.location}}</li>
+                    <li class="list-group-item"><strong>Blog: </strong>{{profile.company}}</li>
+                    <li class="list-group-item"><strong>Company: </strong>{{profile.blog}}</li>
+                    <li class="list-group-item"><strong>Member Since: </strong>{{profile.created_at}}</li>
+                    
+                  </ul>
+                </div>
+        <div class="col-md-5 filled">
+            <div class="card card2 card-default mt-5">
+              <div class="card card2 card-heading pt-2">
+                <h3 class=" card2 card-title ml-5 ">Repositories</h3>
+              </div>
+              <div class="card2 card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div *ngFor="let repo of repos">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <h4><a href="{{repo.html_url}}" target="_blank">{{repo.name}}</a></h4>
+                          <p>{{repo.description}}</p>
+                        </div>
+                        <div class="col-md-3">
+                          <span class="badge badge-default">{{repo.watchers}} Watchers</span>
+                          <span class="badge badge-primary">{{repo.forks}} Forks</span>
+                        </div>
+                      </div>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
