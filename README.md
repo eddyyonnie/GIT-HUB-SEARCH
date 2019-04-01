@@ -7,12 +7,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Eddy Yonnie 
 
 ## Behavior driven developement
-| Behaviour- our programme should display  | Input Example-when it receives|output Example-should return| 
+| Behaviour- should display  | Input Example-when it receives|output Example-should return| 
 | :--------------------------| :--------------------------   |:-------------------------- |
-| Enter quote                | man is to wife                | Display quote              |
-|Delete quote                | delete                        | Deleted quote              |
-| up vote a quote            | upvotes button                | up vote  +1                |
-| down vote a quote          | downvotes button              | down vote +1               |
+| enter user name            | write username on github      | Display repositories       |
+| onclick search             | click the search button       | searches for asked info    |
 |--------------------------  |------------------------------ |----------------------------|      
 
 ## Description
@@ -22,13 +20,13 @@ Eddy Yonnie
     1. Angular.
     2. Bootstrap.
 ## Setup instructions
-    1. Find my repository in github or simply type this url in your browser https://eddyyonnie.github/GIT-HUB-SEARCH
+    1. Find my repository in github or simply type this url in your browser https://eddyyonnie.github.io/GIT-HUB-SEARCH
     2. Navigate through the Application and enter details required.
     3. click search to retrieve results.
    
 
 ## Live Link
-https://eddyyonnie.github/GIT-HUB-SEARCH
+https://eddyyonnie.github.io/GIT-HUB-SEARCH
 
 ## Dependencies
 Run `ng serve` for a dev server. Navigate to `http://localhost:4256`. The app will automatically reload if you change any of the source files.
@@ -62,4 +60,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 ## License
 C22020201## License
-Copyright © 2019, Eddy Yonnie. [MIT LICENSE](../LICENSE/LICENSE)
+Copyright © 2019, Eddy Yonnie. [MIT LICENSE](LICENSE)
