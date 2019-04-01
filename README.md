@@ -16,18 +16,16 @@ Eddy Yonnie
 |--------------------------  |------------------------------ |----------------------------|      
 
 ## Description
-    1. This is a Web Application project where you could search for github users and their repositories.
-    2. The project is made with Angular 7.
-    3. It has a simple easy to use user interface that every user would love interaction with.  
+* This is a Web Application project where you could search for github users and their repositories. The project is made with Angular 7.It has a simple easy to use user interface that every user would love interaction with.  
 
 ## Technologies Used
     1. Angular.
     2. Bootstrap.
 ## Setup instructions
-    1. Its really simple just find my repository in github or simply type this url in your browser https://eddyyonnie.github/GIT-HUB-SEARCH
-    2. Secondly Navigate through the Application and enter details required.
-    3. Finally click search to retrieve results.
-    4. Results would be displayed on the same page.
+    1. Find my repository in github or simply type this url in your browser https://eddyyonnie.github/GIT-HUB-SEARCH
+    2. Navigate through the Application and enter details required.
+    3. click search to retrieve results.
+   
 
 ## Live Link
 https://eddyyonnie.github/GIT-HUB-SEARCH
@@ -42,7 +40,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4256`. The app wi
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4256/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -64,4 +62,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 ## License
 C22020201## License
-Copyright © 2019, Marvin Zachary. Released under the MIT License- see the LICENSE.md file for details.1111
+Copyright © 2019, Eddy Yonnie. [MIT LICENSE](../LICENSE/LICENSE)
