@@ -34,7 +34,7 @@ Eddy Yonnie
 https://marvgithubsearch.netlify.com/
 
 ## Dependencies
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:425/`. The app will automatically reload if you change any of the source files.
 
 ## CONTACTS
     1. acerzach@gmail.com
