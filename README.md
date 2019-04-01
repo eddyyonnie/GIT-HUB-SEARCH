@@ -5,7 +5,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Authors
 Eddy Yonnie 
-@marvin Ayieko(https://www.facebook.com/zayieko)
 
 ## Behavior driven developement
 | Behaviour- our programme should display  | Input Example-when it receives|output Example-should return| 
@@ -25,7 +24,7 @@ Eddy Yonnie
     1. Angular.
     2. Bootstrap.
 ## Setup instructions
-    1. Its really simple just find my repository in github or simply type this url in your browser https://marvgithubsearch.netlify.com/
+    1. Its really simple just find my repository in github or simply type this url in your browser https://eddyyonnie.github/GIT-HUB-SEARCH
     2. Secondly Navigate through the Application and enter details required.
     3. Finally click search to retrieve results.
     4. Results would be displayed on the same page.
